@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #283149;
+}
+
+h1 {
+    text-shadow: 4px 0px #C50C60;
+    font-size: 5rem;
+    color: white;
+    font-family: "Arvo", serif;
+    margin-bottom: 10%;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.item {
+    position: relative;
+    height: 160px;
+    width: 160px;
+    background-color: #404B69;
+    display: inline-block;
+    border-radius: 10%;
+    margin: 1%;
+}
+
+.subItem {
+    color: #C50C60;
+    font-family: "Arvo", serif;
+    font-size: 5rem;
+    font-weight: 800;
+    text-align: center;
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    border-radius: 5%;
+    background-color: white;
+    top: 10.5%;
+    left: 10.5%;
+    padding: 3%;
+    cursor: pointer;
+    text-shadow: 4px 0px white;
+}
+
+p {
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Arvo", serif;
+    text-shadow: 1px 0px #C50C60;
+    margin-top: 10%;
+}
+
+/* drums */
+
+.w {
+    background-image: url(./images/crash.png);
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(31, 29, 30, 0.3);
+}
+
+.a {
+    background-image: url(./images/kick.png);
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(31, 29, 30, 0.3);
+}
+
+.s {
+    background-image: url(./images/snare.png);
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(31, 29, 30, 0.3);
+}
+
+.d {
+    background-image: url(./images/tom1.png);
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(31, 29, 30, 0.3);
+}
+
+.j {
+    background-image: url(./images/tom2.png);
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(31, 29, 30, 0.3);
+}
+
+.k {
+    background-image: url(./images/tom3.png);
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(31, 29, 30, 0.3);
+}
+
+.l {
+    background-image: url(./images/tom4.png);
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(31, 29, 30, 0.3);
+}
